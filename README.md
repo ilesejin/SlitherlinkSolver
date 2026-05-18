@@ -29,7 +29,9 @@ The problems are crawled from the website https://www.puzzle-loop.com/. There ar
 
 ## Performance
 
-The solver takes about 0.01 seconds to solve a 25x30 Hard Slitherlink. Note that the solver doesn't even go to the DFS stage for 25x30 Hard Slitherlinks; everything is solved in the preprocess stage. This solver can solve every problem available in the website within 0.01 seconds, except for the **Monthly Loop**. The **Monthly Loop** requires too much DFS steps, so the solver seems to take too much time. 
+The solver takes about 0.01 seconds to solve a 25x30 Hard Slitherlink. Note that the solver doesn't even go to the DFS stage for 25x30 Hard Slitherlinks; everything is solved in the preprocess stage. This solver can solve every problem available in the website within 0.01 seconds, except for the **Monthly Loop**. The **Monthly Loop** requires too much DFS steps, so the solver seems to take too much time.
+
+The robot solver `exabyte_bot` [here](https://www.puzzle-loop.com/hall.php) is me. 0.2 seconds in the hall of fame is mostly the network communication time. I guess this solver will achieve rank #1 if I could execute this somewhere in California (where the server is located).
 
 ## Submission
 
