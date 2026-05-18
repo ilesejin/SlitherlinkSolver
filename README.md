@@ -1,6 +1,8 @@
 # SlitherlinkSolver
 Julia Implementation of a Slitherlink Solver
 
+This is a project for the Programming course (2026) in Charles University. 
+
 ## Solver
 
 The solver consists of two parts: preprocessing and DFS. 
