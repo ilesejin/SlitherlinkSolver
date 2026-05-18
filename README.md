@@ -27,6 +27,10 @@ There is one cool fact about Slitherlink: the parity of sectors is invariant aro
 
 The problems are crawled from the website https://www.puzzle-loop.com/. There are list of problems in `problem_bank.txt`. Note that this solver cannot solve the final problem, which is the **Monthly Loop**. 
 
+## Performance
+
+The solver takes about 0.01 seconds to solve a 25x30 Hard Slitherlink. Note that the solver doesn't even go to the DFS stage for 25x30 Hard Slitherlinks; everything is solved in the preprocess stage. This solver can solve every problem available in the website within 0.01 seconds, except for the **Monthly Loop**. The **Monthly Loop** requires too much DFS steps, so the solver seems to take too much time. 
+
 ## Submission
 
 `submit.jl` is a code for submission to the [website](https://www.puzzle-loop.com/). It requests a problem from the website, solves and submits it, and the website verifies the solution. If you provide your api token in `api_token.txt`, you can even submit your solution into the hall of fame. 
